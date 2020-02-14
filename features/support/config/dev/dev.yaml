@@ -1,0 +1,13 @@
+url: 'https://www.yaman.com.br/'
+
+
+servicos_cep:
+    urlCorreiosCepRest: 'http://correiosapi.apphb.com/cep/'
+    urlCorreiosCepSoap: 'http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx'
+    
+cep:
+    valido: '06220090'
+    invalido: '99999999'
+    
+pesquisa:
+    nome: Gabriel Aguido Fraga

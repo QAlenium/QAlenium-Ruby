@@ -1,0 +1,9 @@
+##YAML Template
+default: -p html_report -p chrome -p hom
+html_report: --format pretty --format html --out=reports/features_report.html
+json_report: --format progress --format json --out=reports/features_report.json
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+poltergeist: BROWSER=poltergeist
+safari: BROWSER=safari
+hom: ENVIRONMENT_TYPE=hom
