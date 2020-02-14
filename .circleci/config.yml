@@ -1,19 +1,15 @@
 version: 2.1
+orbs:
+  ruby: circleci/ruby@0.1.2 
+
 jobs:
-
   build:
-
     docker:
-      - image: circleci/ruby:latest
-
+      - image: circleci/ruby:2.6.3-stretch-node
+    executor: default
     steps:
       - checkout
-      - sonarcloud/scan
-orbs:
-  sonarcloud: sonarsource/sonarcloud@1.0.1
-
-workflows:
-  main:
-    jobs:
-      - build:
-          context: SonarCloud
+      - run:
+          name: Which bundler?
+          command: bundle -v
+      - ruby/bundle-install
