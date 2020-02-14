@@ -1,4 +1,4 @@
-# Ruby Automation
+# Framework de automação de testes em Ruby
 A powerful & easy to use Test Automation Framework
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Recruitment-and-Selection-Automation-Cucumber&metric=alert_status)](https://sonarcloud.io/dashboard?id=kaapiel_Recruitment-and-Selection-Automation-Cucumber)
@@ -7,7 +7,6 @@ A powerful & easy to use Test Automation Framework
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Recruitment-and-Selection-Automation-Cucumber&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=kaapiel_Recruitment-and-Selection-Automation-Cucumber)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Recruitment-and-Selection-Automation-Cucumber&metric=security_rating)](https://sonarcloud.io/dashboard?id=kaapiel_Recruitment-and-Selection-Automation-Cucumber)
 ![CircleCI](https://img.shields.io/circleci/build/github/kaapiel/ReS-Automation-Ruby/master)
-[![API](https://img.shields.io/badge/API-26%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=26)
 
 ## Table of Contents
 1. [Quick Start](#quick-start)
@@ -40,7 +39,7 @@ This repository's issue tracker is only for bugs and feature requests.
 
 <h1 id="license">License :page_facing_up:</h1>
 
-Copyright 2019 Gabriel Aguido Fraga
+Copyright 2020 QAlenium
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
