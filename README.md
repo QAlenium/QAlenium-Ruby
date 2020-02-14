@@ -27,16 +27,6 @@ This repository's issue tracker is only for bugs and feature requests.
 
 <br/>
 
-<h2 id="donate">Donations :heart:</h2>
-
-*This project needs you!* If you would like to support this project's further development, the creator of this project or the continuous maintenance of this project, *feel free to donate*. Your donation is highly appreciated (and I love food experiences). Thank you!
-
-*PayPal*
-
-- Do you ever though about paying a coffee, lunch or dinner for maintaining the project? [*So please click on this link*](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=gabriel_aguido@hotmail.com&lc=US&item_name=Donation+to+Recruitment+and+Selection+Ruby+Framework+Maintenance&no_note=0&cn=&currency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted), all donations are awesome!
-
-<br/>
-
 <h1 id="license">License :page_facing_up:</h1>
 
 Copyright 2020 QAlenium
