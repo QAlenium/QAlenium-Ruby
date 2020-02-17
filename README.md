@@ -8,7 +8,10 @@ A powerful & easy to use Test Automation Framework
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=QAlenium_QAlenium-Ruby&metric=security_rating)](https://sonarcloud.io/dashboard?id=QAlenium_QAlenium-Ruby)
 ![CircleCI](https://img.shields.io/circleci/build/github/QAlenium/QAlenium-Ruby/master)
 
-# Entre em nosso canal do Slack! https://qalenium.slack.com/
+## Entre em nosso canal do Slack! https://qalenium.slack.com/
+
+## Acompanhe as métricas de qualidade em https://sonarcloud.io/dashboard?id=QAlenium_QAlenium-Ruby
+
 
 ## Table of Contents
 1. [Quick Start](#quick-start)
