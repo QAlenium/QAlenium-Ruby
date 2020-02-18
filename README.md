@@ -12,6 +12,7 @@ A powerful & easy to use Test Automation Framework
 
 ## Acompanhe as métricas de qualidade em https://sonarcloud.io/dashboard?id=QAlenium_QAlenium-Ruby
 
+## Acompanhe a pipeline de integração contínua em https://circleci.com/gh/QAlenium/QAlenium-Ruby
 
 ## Table of Contents
 1. [Quick Start](#quick-start)
