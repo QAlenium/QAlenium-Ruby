@@ -584,7 +584,7 @@ GEM
       selenium-webdriver (~> 3.4, >= 3.4.1)
     websocket-driver (0.7.0)
       websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.2)
+    websocket-extensions (0.1.5)
     without_accents (0.9.1)
       utf8_utils
     xml-to-hash (1.0.3)
