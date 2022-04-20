@@ -1,5 +1,8 @@
-# Framework de automação de testes em Ruby
+# Ruby automated tests framwork
 A powerful & easy to use Test Automation Framework
+<div align="center">
+  <img src="https://raw.githubusercontent.com/QAlenium/QAlenium-raw/main/ruby/ruby-mobile-web.gif" width="600" height="300"/>
+</div>
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=QAlenium_QAlenium-Ruby&metric=alert_status)](https://sonarcloud.io/dashboard?id=QAlenium_QAlenium-Ruby)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=QAlenium_QAlenium-Ruby&metric=ncloc)](https://sonarcloud.io/dashboard?id=QAlenium_QAlenium-Ruby)
