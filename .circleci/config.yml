@@ -1,17 +1,23 @@
 version: 2.1
 
 orbs:
-  sonarcloud: sonarsource/sonarcloud@1.0.1
+  # Refer to this link to setup Slack channels: https://github.com/CircleCI-Public/slack-orb/wiki/Setup
+  # Setup slack app also:  https://github.com/CircleCI-Public/slack-orb/issues/207#issuecomment-731219733
+  slack: circleci/slack@4.9.3
 
 jobs:
   build:
-    docker:
-      - image: circleci/ruby:latest
-
+    machine:
+      image: ubuntu-2004:202010-01
+      working_directory: ~/project
     steps:
-      - checkout
-      - sonarcloud/scan
-
+    - checkout
+    - run:
+        name: "Test Command"
+        command: ls
+    - slack/notify:
+        event: always
+        template: basic_success_1
 
 workflows:
   build_and_test:
