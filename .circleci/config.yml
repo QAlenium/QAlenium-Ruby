@@ -4,6 +4,7 @@ orbs:
   # Refer to this link to setup Slack channels: https://github.com/CircleCI-Public/slack-orb/wiki/Setup
   # Setup slack app also:  https://github.com/CircleCI-Public/slack-orb/issues/207#issuecomment-731219733
   slack: circleci/slack@4.9.3
+  sonarcloud: sonarsource/sonarcloud@1.0.3
 
 jobs:
   build:
@@ -14,6 +15,7 @@ jobs:
       - run:
           name: Test command
           command: ls
+      - sonarcloud/scan
       - slack/notify:
           event: pass
           custom: |
