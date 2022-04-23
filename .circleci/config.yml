@@ -12,9 +12,7 @@ jobs:
       image: ubuntu-2004:202010-01
     working_directory: ~/project
     steps:
-      - run:
-          name: Test command
-          command: ls
+      - checkout
       # Note that sonar scan is triggered ONLY if automatic analysis is turned OFF
       - sonarcloud/scan
       - slack/notify:
